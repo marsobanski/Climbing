@@ -32,8 +32,12 @@ public class RegistrationController {
         if (result.hasErrors()) {
             return "registration";
         }
-        user.setPassword(BCrypt.hashpw(user.getPassword(), BCrypt.gensalt()));
-        userService.saveUser(user);
+        try{
+            user.setPassword(BCrypt.hashpw(user.getPassword(), BCrypt.gensalt()));
+            userService.saveUser(user);
+        }catch(Exception e) {
+            return "registererror";
+        }
         return "redirect:/login";
     }
 }
