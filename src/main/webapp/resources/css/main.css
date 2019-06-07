@@ -1,0 +1,124 @@
+
+body {
+    height: 100%;
+    background-image: url("/resources/img/capitan1.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.white-background {
+    height: auto;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 1em;
+    padding-top: 5%;
+}
+.home-button {
+    width: 30%;
+    vertical-align: center;
+    font-weight: bolder;
+}
+.home-text-button {
+    background-color: rgba(0,0,0,0.4);
+    width: 50%;
+}
+.home-button-white {
+    background-color: rgba(255,255,255,0.8);
+}
+.home-button-green {
+    background-color: rgba(103,200,91,0.8);
+}
+.home-button-blue {
+    background-color: rgba(140,189,217,0.8);
+}
+.home-button-red {
+    background-color: rgba(187,65,62,0.8);
+}
+.home-button-black {
+    color: white;
+    text-shadow: 1px 0 0 black;
+    font-size: large;
+    font-weight: bolder;
+}
+.white-form {
+    padding-right: 15em;
+    padding-left: 15em;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    horiz-align: center;
+}
+header {
+
+    padding: 80px 0 5px;
+
+    border-bottom: 1px solid #133783;
+
+    margin-bottom: 10px;
+
+    font-size: 20px;
+
+}
+
+.containerrr
+{
+    height: 200px;
+    border: solid 2px green; text-align:center;
+    line-height:200px;
+}
+
+.verticalButton
+{
+    vertical-align: middle
+}
+
+.element {
+.center-block();
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.navbar-blue {
+    background-color: white;
+    background-image: linear-gradient(#f9fff9, #ffffff 50%);
+    border-bottom: 1px solid lightskyblue;
+}
+.navbar-blue a {
+    color: black !important;
+}
+.navbar-blue a:hover {
+    background: rgba(0, 0, 0, .1);
+}
+.simple-tab {
+    font-size: 1.1em;
+
+}
+.rt-nme {
+    font-size: x-large;
+    text-align: center;
+}
+.text-center {
+    text-align: center;
+}
+.black-txt {
+    color: black;
+}
+.com-win {
+    border-color: black;
+    border: 2px;
+}
+
+
+
+
+
