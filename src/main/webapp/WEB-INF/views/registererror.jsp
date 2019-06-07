@@ -20,7 +20,7 @@
 <body>
 <div class="container white-background">
     <div>
-        <a class="btn btn-block btn-success" href="/registration">Login zajęty, ponów próbę</a>
+        <a class="btn btn-block btn-success text-lg-center" href="/registration">Login/Email zajęty, ponów próbę</a>
     </div>
 </div>
 </body>
